@@ -1,0 +1,39 @@
+=============== Mar 13, 2020 (+08) ===============
+11:49:28.880159 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+11:49:28.935128 db@open opening
+11:49:28.937126 version@stat F·[] S·0B[] Sc·[]
+11:49:28.985025 db@janitor F·2 G·0
+11:49:28.985025 db@open done T·49.8951ms
+=============== Mar 13, 2020 (+08) ===============
+11:52:00.928562 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+11:52:00.928562 version@stat F·[] S·0B[] Sc·[]
+11:52:00.928562 db@open opening
+11:52:00.928562 journal@recovery F·1
+11:52:00.929561 journal@recovery recovering @1
+11:52:00.930561 version@stat F·[] S·0B[] Sc·[]
+11:52:01.016483 db@janitor F·2 G·0
+11:52:01.016483 db@open done T·87.9188ms
+11:52:01.029475 db@close closing
+11:52:01.030473 db@close done T·998.2µs
+=============== Mar 13, 2020 (+08) ===============
+11:53:38.353601 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+11:53:38.353601 version@stat F·[] S·0B[] Sc·[]
+11:53:38.353601 db@open opening
+11:53:38.353601 journal@recovery F·1
+11:53:38.355601 journal@recovery recovering @2
+11:53:38.385626 memdb@flush created L0@4 N·10 S·568B "H\xce\xd2..\xbf\xe1\xc3,v3":"r\x00\x00..\xbf\xe1\xc3,v5"
+11:53:38.387584 version@stat F·[1] S·568B[568B] Sc·[0.25]
+11:53:38.471964 db@janitor F·3 G·0
+11:53:38.471964 db@open done T·118.3599ms
+11:56:22.072376 db@close closing
+11:56:22.073374 db@close done T·998µs
+=============== Mar 13, 2020 (+08) ===============
+11:57:31.466048 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+11:57:31.466048 version@stat F·[1] S·568B[568B] Sc·[0.25]
+11:57:31.466048 db@open opening
+11:57:31.467046 journal@recovery F·1
+11:57:31.468047 journal@recovery recovering @5
+11:57:31.510382 memdb@flush created L0@7 N·1 S·192B "Dat..ion,v12":"Dat..ion,v12"
+11:57:31.514372 version@stat F·[2] S·760B[760B] Sc·[0.50]
+11:57:31.596315 db@janitor F·4 G·0
+11:57:31.596315 db@open done T·130.2648ms
